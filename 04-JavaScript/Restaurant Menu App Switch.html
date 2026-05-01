@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu App in Switch</title>
+</head> 
+<body>
+    <script>
+        let item = 2;
+
+         switch (item){
+            case 1:
+                console.log("Burger ₹120");
+                break;
+            case 2:
+                console.log("Pizza ₹250");
+                break;
+            case 3:
+                console.log("Pasta ₹180");
+                break;
+            case 4:
+                console.log("Cold Drink ₹60");
+                break;
+            default:
+                console.log("Invalid Item");
+         }
+
+         //Payment Method 
+
+         let payment = "UPI";
+
+            switch (payment){
+                case "UPI":
+                    console.log("You have selected UPI as your payment method.");
+                    break;
+                case "Card":
+                    console.log("You have selected Card as your payment method.");
+                    break;
+                case "COD":
+                    console.log("You have selected Cash on Delivery as your payment method.");
+                    break;
+                default:
+                    console.log("Invalid payment method.");
+            }
+
+            //Status
+
+            let status = "delivered";
+
+                switch (status){
+                    case "pending":
+                        console.log("Your order is pending.");
+                        break;
+                    case "shipped":
+                        console.log("Your order has been shipped.");
+                        break;
+                    case "delivered":
+                        console.log("Your order has been delivered.");
+                        break;
+                    default:
+                        console.log("Invalid status.");
+                        break;
+                }
+
+            // Theme App
+
+                let theme = "dark";
+
+                switch (theme){
+                    case "dark":
+                        console.log("Dark Mode On");
+                        break;
+                    case "light":
+                        console.log("Light Mode On");
+                        break;
+                }
+
+            // Role App
+                let role = "manager"
+
+                switch (role){
+                    case "admin":
+                        console.log("Full Access");
+                        break;
+                    case "manager":
+                        console.log("Medium Access.");
+                        break;
+
+                    case "user":
+                        console.log("Basic Access.");
+                        break;
+                }
+    </script>
+</body>
+</html>
