@@ -188,6 +188,19 @@
         else{
             console.log("You cannot apply for the job.");
         }
+
+        // Dashboard Access
+
+        let loggedIn = true;
+        let admin = false;
+        let superUser = true;
+
+        if((loggedIn && admin) || superUser){
+            console.log("Access to dashboard granted.");
+        }
+        else{
+            console.log("Access to dashboard denied.");
+        }
     </script>
 </body>
 </html>
