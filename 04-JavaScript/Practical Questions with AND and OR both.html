@@ -17,6 +17,20 @@
         } else {
             console.log("Sorry, you cannot enter the club.");
         }
+
+        //Discount Rule 
+
+        member = true
+        amount = 3000
+        coupon = true
+
+        if((member && amount >= 5000) || coupon){
+            console.log("You get a discount!")
+        } else {
+            console.log("No discount for you.")
+        }
+
+        
     </script>
     </body>
 </html>
