@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OR operator practice question</title>
+</head>
+<body>
+    <script>
+        let age = 16;
+        let hasID = true;
+
+        if (age >= 18 || hasID === true){
+
+            console.log("Allowed");
+        }
+        else {
+            console.log("Not allowed");
+        }
+
+        //Login
+
+        let username = "admin";
+
+        if (username === "admin" || username === "manager"){
+        
+        console.log("Login Success");
+        }
+        else {
+            console.log("Login Failed");
+        }
+
+        //Weather Alert
+
+        let raining = false;
+        let cold = true;
+
+        if (raining === true || cold === true){
+            console.log("Take Jacket");
+        }
+        else {
+            console.log("No need for a jacket");
+        }
+
+        //Marks Validation
+
+        let marks = 105;
+
+        if (marks < 0 || marks > 100){
+            console.log("Invalid Marks");
+        }
+        else {
+            console.log("Valid Marks");
+        }
+
+        //Shop Discount
+
+        let isMember = true;
+        let coupon = false;
+
+        if (isMember === true || coupon === true){
+            console.log("Discount Applied");
+        }
+        else {
+            console.log("No Discount");
+        }
+    </script>
+</body>
+</html>
