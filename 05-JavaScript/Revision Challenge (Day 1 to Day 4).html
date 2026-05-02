@@ -248,7 +248,26 @@
                 console.log("Invalid Payment Method");
                 break;
             }
-            
+
+            // Q20 Order Status 
+
+            let status = "shipped";
+
+            switch(status){
+                case "pending":
+                    console.log("Order is Pending");
+                    break;
+                case "deliverd":
+                    console.log("Order is Deliverd");
+                    break;
+                case "shipped":
+                    console.log("Order is Shipped");
+                    break;
+                default:
+                    console.log("Invalid Status");
+                    break;
+            }
+
     </script>
 </body>
 </html>
